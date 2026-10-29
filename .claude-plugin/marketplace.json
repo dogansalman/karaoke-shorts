@@ -1,0 +1,21 @@
+{
+  "name": "karaoke-shorts",
+  "owner": {
+    "name": "Doğan Salman"
+  },
+  "metadata": {
+    "description": "Karaoke lyric videos for YouTube Shorts and Instagram Reels",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "karaoke-shorts",
+      "description": "Turn a song into a vertical Shorts/Reels video with word-by-word karaoke lyrics, instrumental equalizer animation, a hook title and Shorts-length trimming. Works well for Turkish lyrics.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/karaoke-shorts"
+      ]
+    }
+  ]
+}
